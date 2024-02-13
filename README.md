@@ -199,8 +199,8 @@ Tahapan preprocessing yang dilakukan sebelum modeling
         - Konsumsi BBM: 44.5 mpg
         - Ukuran Mesin: 1.5
 
-          Prediksi harga pasaran untuk mobil ini adalah `£22,510.469`, yang masuk dalam rentang harga `£20,000 - £30,000` dengan error sebesar `6.33%`. Artinya, harga mobil sebenarnya diperkirakan berada di kisaran `£21,079.94 - £23,941.00.`Untuk memperoleh margin
-          keuntungan hingga `12%,` perusahaan harus mencari mobil dengan harga awal antara `£18,566.35 - £21,067.28`. Dengan menerapkan model ini, diharapkan perusahaan dapat meningkatkan margin keuntungan hingga yang optimal.
+      Prediksi harga pasaran untuk mobil ini adalah `£22,510.469`, yang masuk dalam rentang harga `£20,000 - £30,000` dengan error sebesar `6.33%`. Artinya, harga mobil sebenarnya diperkirakan berada di kisaran `£21,079.94 - £23,941.00.`Untuk memperoleh margin
+      keuntungan hingga `12%,` perusahaan harus mencari mobil dengan harga awal antara `£18,566.35 - £21,067.28`. Dengan menerapkan model ini, diharapkan perusahaan dapat meningkatkan margin keuntungan hingga yang optimal.
 
 ### **Recommendation**
 
