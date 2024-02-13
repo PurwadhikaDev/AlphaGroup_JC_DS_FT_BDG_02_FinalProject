@@ -211,10 +211,9 @@ Berikut adalah rekomendasi untuk meningkatkan kehandalan pemodelan yang telah ka
 
 2. **Eksplorasi Model Alternatif**: Selain Random Forest, kita mengetahui pada tahapan cross validasi diperoleh model lain yang juga stabil yaitu, Catboost. Dengan melakukan tuning model alternatif lainnya diharapkan akan diperoleh model yang lebih handal.
 
-3. **Penanganan *Overestimate *pada Rentang -40000 hingga -20000 dan *Underestimate* Pada Rentang 20000 hingga 90000**:
-   - Perlu dilakukan penyesuaian harga pasaran yang lebih akurat pada data test untuk memastikan bahwa harga aktual mencerminkan nilai pasaran yang sebenarnya. Hal ini dapat membantu model dalam membuat prediksi yang lebih akurat dengan meminimalkan perbedaan antara harga aktual dan harga pasaran yang dipelajari oleh model.
+3. **Penanganan Overestimate dan Underestimate**: Perlu dilakukan penyesuaian harga pasaran yang lebih akurat pada data test untuk memastikan bahwa harga aktual mencerminkan nilai pasaran yang sebenarnya. Hal ini akan membantu model dalam membuat prediksi yang lebih akurat dengan meminimalkan perbedaan antara harga aktual dan harga pasaran yang dipelajari oleh model.
 
-4. **Penambahan Data**: Menambahkan dataset mobil terutama pada feature-feature importance yang memiliki banyak outliers. Penambahan data tersebut diharapkan agar model dapat lebih belajar dari data yang sudah ada sebelumnya namun jumlahnya masih sedikit. 
+4. **Penambahan Data**: Penambahan dataset mobil terutama pada fitur-fitur yang memiliki banyak outliers dapat meningkatkan kinerja model. Data tambahan seperti kondisi body kendaraan, interior, dan mesin dapat memberikan informasi tambahan yang berharga bagi model.
 
 ## **Tableau**
 [Link Dashboard](https://public.tableau.com/views/FinalProjectAlphaTeam/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
