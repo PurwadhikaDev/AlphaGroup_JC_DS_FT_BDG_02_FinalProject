@@ -217,3 +217,6 @@ Berikut adalah rekomendasi untuk meningkatkan kehandalan pemodelan yang telah ka
 
 ## **Tableau**
 [Link Dashboard](https://public.tableau.com/views/FinalProjectAlphaTeam/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+## **Best Model**
+[Link Model](https://drive.google.com/file/d/1rjNbQ8gpbyaUUaCryF1zU-R7na3C6rnK/view?usp=sharing)
