@@ -187,6 +187,20 @@ Tahapan preprocessing yang dilakukan sebelum modeling
 
 10. **Cost Benefit**:
     - Hasil analisis ini dapat dimanfaatkan oleh perusahaan untuk mengurangi biaya dan meminimalkan upaya tenaga kerja yang diperlukan sebagai estimator harga mobil. Sebagai contoh, upah minimum pekerja di Inggris Raya adalah [£2013.44](https://id.tradingeconomics.com/united-kingdom/minimum-wages) per bulan, dengan asumsi bahwa mereka bekerja selama 8 jam setiap hari kerja. Dengan menggunakan model kami untuk memprediksi harga, kita tidak perlu menambah pekerjaan untuk melakukan estimasi harga dan dapat mengurangi biaya sebanyak £2013.44 per bulan.
+    - Untuk meningkatkan potensi margin keuntungan hingga 12%, perusahaan dapat menggunakan model prediksi harga mobil yang telah dikembangkan. Sebagai contoh, kami melakukakn simulasi prediksi harga mobil dengan spesifikasi sebagai berikut:
+
+        - Merek: Audi
+        - Model: A1
+        - Tahun: 2019
+        - Transmisi: Semi-Auto
+        - Jarak Tempuh: 2500 mil
+        - Jenis Bahan Bakar: Petrol
+        - Pajak: £145
+        - Konsumsi BBM: 44.5 mpg
+        - Ukuran Mesin: 1.5
+
+          Prediksi harga pasaran untuk mobil ini adalah `£22,510.469`, yang masuk dalam rentang harga `£20,000 - £30,000` dengan error sebesar `6.33%`. Artinya, harga mobil sebenarnya diperkirakan berada di kisaran `£21,079.94 - £23,941.00.`Untuk memperoleh margin
+          keuntungan hingga `12%,` perusahaan harus mencari mobil dengan harga awal antara `£18,566.35 - £21,067.28`. Dengan menerapkan model ini, diharapkan perusahaan dapat meningkatkan margin keuntungan hingga yang optimal.
 
 ### **Recommendation**
 
