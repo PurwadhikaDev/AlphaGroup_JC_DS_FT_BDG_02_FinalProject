@@ -213,7 +213,7 @@ Berikut adalah rekomendasi untuk meningkatkan kehandalan pemodelan yang telah ka
 
 3. **Penanganan Overestimate dan Underestimate**: Perlu dilakukan penyesuaian harga pasaran yang lebih akurat pada data test untuk memastikan bahwa harga aktual mencerminkan nilai pasaran yang sebenarnya. Hal ini akan membantu model dalam membuat prediksi yang lebih akurat dengan meminimalkan perbedaan antara harga aktual dan harga pasaran yang dipelajari oleh model.
 
-4. **Penambahan Data**: Penambahan dataset mobil terutama pada fitur-fitur yang memiliki banyak outliers dapat meningkatkan kinerja model. Data tambahan seperti kondisi body kendaraan, interior, dan mesin dapat memberikan informasi tambahan yang berharga bagi model.
+4. **Penambahan Data**: Penambahan dataset mobil terutama pada fitur-fitur yang memiliki banyak outliers dapat meningkatkan kinerja model terutama pada features yang paling penting untuk model Random Forest yang telah dibangun. Penambahan data tersebut diharapkan agar model dapat lebih belajar dari data yang sudah ada sebelumnya namun jumlahnya masih sedikit. 
 
 ## **Tableau**
 [Link Dashboard](https://public.tableau.com/views/FinalProjectAlphaTeam/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
