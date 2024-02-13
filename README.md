@@ -192,7 +192,7 @@ Tahapan preprocessing yang dilakukan sebelum modeling
 
 Dataset yang kami miliki merupakan data mobil yang terpampang di iklan. Karena data tidak sepenuhnya mencerminkan preferensi atau minat sebenarnya dari pelanggan. Dalam hal ini, ada beberapa rekomendasi yang dapat kami berikan kepada webuyused car antara lain:
 
-1. **Analisis Data yang Mendalam:** Selain data iklan, perusahaan sebaiknya juga mengumpulkan dan menganalisis data historis penjualan mobil bekas, survei pelanggan, dan sumber data lainnya. Dengan demikian, akan terbentuk pemahaman yang lebih holistik tentang preferensi dan perilaku pembeli.
+1. **Sumber Data Untuk Analysys** Selain data iklan, perusahaan sebaiknya juga mengumpulkan dan menganalisis data historis penjualan mobil bekas, survei pelanggan, dan sumber data lainnya. Dengan demikian, akan terbentuk pemahaman yang lebih holistik tentang preferensi dan perilaku pembeli.
 
 2. **Penelitian Pasar yang Komprehensif:** Perlu dilakukan penelitian pasar yang menyeluruh untuk memahami tren dan preferensi konsumen dalam kategori mobil bekas. Ini termasuk analisis kompetitor, survei pelanggan potensial, serta pemahaman mendalam tentang kondisi dan tren pasar yang sedang berlangsung.
 
@@ -202,7 +202,6 @@ Dataset yang kami miliki merupakan data mobil yang terpampang di iklan. Karena d
 
 5. **Integrasi Karakteristik Mobil dalam Strategi Penetapan Harga:** Gabungkan analisis data yang mendalam dan segmentasi pelanggan dengan karakteristik mobil yang ditemukan, seperti tahun pembuatan, merek, model, transmisi, bahan bakar, tenaga mesin, dan efisiensi bahan bakar. Dengan demikian, perusahaan dapat menyesuaikan harga mobil secara lebih tepat sesuai dengan nilai tambah yang ditawarkan oleh setiap kendaraan, meningkatkan daya saing dan potensi penjualan mobil bekas.
 
-Dengan menerapkan rekomendasi ini secara menyuluruh, perusahaan dapat memperoleh pemahaman yang lebih mendalam tentang pasar mobil bekas dan meningkatkan strategi pemasaran serta penawaran produknya untuk memenuhi kebutuhan dan preferensi pelanggan dengan lebih baik.
 
 -----
 
@@ -212,11 +211,10 @@ Berikut adalah rekomendasi untuk meningkatkan kehandalan pemodelan yang telah ka
 
 2. **Eksplorasi Model Alternatif**: Selain Random Forest, kita mengetahui pada tahapan cross validasi diperoleh model lain yang juga stabil yaitu, Catboost. Dengan melakukan tuning model alternatif lainnya diharapkan akan diperoleh model yang lebih handal.
 
-3. **Penanganan Overestimate pada Rentang -40000 hingga -20000** dan 20000 hingga 90000**:
+3. **Penanganan *Overestimate *pada Rentang -40000 hingga -20000 dan *Underestimate* Pada Rentang 20000 hingga 90000**:
    - Perlu dilakukan penyesuaian harga pasaran yang lebih akurat pada data test untuk memastikan bahwa harga aktual mencerminkan nilai pasaran yang sebenarnya. Hal ini dapat membantu model dalam membuat prediksi yang lebih akurat dengan meminimalkan perbedaan antara harga aktual dan harga pasaran yang dipelajari oleh model.
 
-4. **Penambahan Data**: Menambahkan dataset mobil terutama pada feature-feature importance yang memiliki banyak outliers. Penambahan data tersebut diharapkan agar model dapat lebih belajar dari data yang sudah ada sebelumnya namun jumlahnya masih sedikit.
+4. **Penambahan Data**: Menambahkan dataset mobil terutama pada feature-feature importance yang memiliki banyak outliers. Penambahan data tersebut diharapkan agar model dapat lebih belajar dari data yang sudah ada sebelumnya namun jumlahnya masih sedikit. 
 
 ## **Tableau**
-
 [Link Dashboard](https://public.tableau.com/views/FinalProjectAlphaTeam/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
