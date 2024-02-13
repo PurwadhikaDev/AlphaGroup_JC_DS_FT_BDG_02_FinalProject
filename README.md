@@ -192,7 +192,7 @@ Tahapan preprocessing yang dilakukan sebelum modeling
 
 Dataset yang kami miliki merupakan data mobil yang terpampang di iklan. Karena data tidak sepenuhnya mencerminkan preferensi atau minat sebenarnya dari pelanggan. Dalam hal ini, ada beberapa rekomendasi yang dapat kami berikan kepada webuyused car antara lain:
 
-1. **Sumber Data Untuk Analysys** Selain data iklan, perusahaan sebaiknya juga mengumpulkan dan menganalisis data historis penjualan mobil bekas, survei pelanggan, dan sumber data lainnya. Dengan demikian, akan terbentuk pemahaman yang lebih holistik tentang preferensi dan perilaku pembeli.
+1. **Sumber Data Untuk Analysys:** Selain data iklan, perusahaan sebaiknya juga mengumpulkan dan menganalisis data historis penjualan mobil bekas, survei pelanggan, dan sumber data lainnya. Dengan demikian, akan terbentuk pemahaman yang lebih holistik tentang preferensi dan perilaku pembeli.
 
 2. **Penelitian Pasar yang Komprehensif:** Perlu dilakukan penelitian pasar yang menyeluruh untuk memahami tren dan preferensi konsumen dalam kategori mobil bekas. Ini termasuk analisis kompetitor, survei pelanggan potensial, serta pemahaman mendalam tentang kondisi dan tren pasar yang sedang berlangsung.
 
