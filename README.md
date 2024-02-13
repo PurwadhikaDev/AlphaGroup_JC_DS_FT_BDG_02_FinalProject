@@ -187,7 +187,7 @@ Tahapan preprocessing yang dilakukan sebelum modeling
 
 10. **Cost Benefit**:
     - Hasil analisis ini dapat dimanfaatkan oleh perusahaan untuk mengurangi biaya dan meminimalkan upaya tenaga kerja yang diperlukan sebagai estimator harga mobil. Sebagai contoh, upah minimum pekerja di Inggris Raya adalah [£2013.44](https://id.tradingeconomics.com/united-kingdom/minimum-wages) per bulan, dengan asumsi bahwa mereka bekerja selama 8 jam setiap hari kerja. Dengan menggunakan model kami untuk memprediksi harga, kita tidak perlu menambah pekerjaan untuk melakukan estimasi harga dan dapat mengurangi biaya sebanyak £2013.44 per bulan.
-    - Untuk meningkatkan potensi margin keuntungan hingga 12%, perusahaan dapat menggunakan model prediksi harga mobil yang telah dikembangkan. Sebagai contoh, kami melakukakn simulasi prediksi harga mobil dengan spesifikasi sebagai berikut:
+    - Untuk meningkatkan potensi margin keuntungan hingga 12%, perusahaan dapat menggunakan model prediksi harga mobil yang telah dikembangkan. Sebagai contoh, kami melakukan simulasi prediksi harga mobil dengan spesifikasi sebagai berikut:
 
         - Merek: Audi
         - Model: A1
